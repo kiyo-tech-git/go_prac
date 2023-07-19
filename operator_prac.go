@@ -24,4 +24,9 @@ func main() {
 	// and, or
 	fmt.Println(x >= 6 && y <= 4) // true
 	fmt.Println(x <= 6 || y <= 4) // true
+
+	// Compound assignment operators
+	x += y
+	println(x) // 13
+
 }
