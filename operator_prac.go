@@ -17,4 +17,8 @@ func main() {
 	fmt.Println(x > y) // true
 	fmt.Println(x < y) // false
 
+	// same or not
+	fmt.Println(x == y) // false
+	fmt.Println(x != y) // true
+
 }
