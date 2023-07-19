@@ -29,4 +29,10 @@ func main() {
 	x += y
 	println(x) // 13
 
+	// increment, decrement
+	x++
+	println(x) // 14
+	y--
+	println(y) // 2
+
 }
