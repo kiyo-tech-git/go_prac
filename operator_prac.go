@@ -21,4 +21,7 @@ func main() {
 	fmt.Println(x == y) // false
 	fmt.Println(x != y) // true
 
+	// and, or
+	fmt.Println(x >= 6 && y <= 4) // true
+	fmt.Println(x <= 6 || y <= 4) // true
 }
