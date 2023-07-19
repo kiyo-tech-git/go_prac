@@ -9,4 +9,8 @@ func main() {
 	fmt.Println(a[0]) //A
 	fmt.Println(a[1]) //B
 	fmt.Println(a[2]) //C
+
+	a[1] = "b" // overwrite element
+
+	fmt.Println(a[1]) // b
 }
